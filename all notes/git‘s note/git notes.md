@@ -23,7 +23,7 @@ Branch分支（存储库的不同开发线）
   
 git 分区
 
-![alt text](d44db50177fc02e839c7ef164aa54ca3.jpg)
+![Git 分区概念](images/git-areas.jpg)
 github
   - 好用快捷键~
   - 1. / 打开github的搜索栏
@@ -31,7 +31,7 @@ github
   - 3. l 快速定位行号
   - 4. ？ 查询快捷键表  
 github多人协作  
-![alt text](fcafb2e89d89f68e15110cb66bfe8b9e.jpg)
+![GitHub 多人协作分支流程](images/github-collaboration.jpg)
 
 # 总结~
 1.Git 是一个分布式版本控制系统 类似游戏存档功能，可以控制存档，读档。记录文件的每一次改动，随时回退历史、并行开发、合并不同人的工作。  
@@ -67,12 +67,12 @@ git极高的自由度，安全性，分布式胖揍依赖于一个服务器的�
 
 # 一些指令
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
+![获取仓库](images/01-get-repository.png)
+![日常循环](images/02-daily-workflow.png)
+![查看与对比](images/03-inspect-compare.png)
+![分支与合并](images/04-branch-merge.png)
+![撤销与回退](images/05-undo-revert.png)
+![远程协作](images/06-remote-collaboration.png)
 
 
 
