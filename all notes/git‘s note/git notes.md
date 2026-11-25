@@ -33,7 +33,7 @@ git 仓库（commit 历史链路）：
 
 ### git 分区
 
-![Git 分区概念](images/git-areas.jpg)
+![Git 分区概念](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/git-areas.jpg)
 
 ## GitHub
 
@@ -46,7 +46,7 @@ git 仓库（commit 历史链路）：
 
 ### GitHub 多人协作
 
-![GitHub 多人协作分支流程](images/github-collaboration.jpg)
+![GitHub 多人协作分支流程](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/github-collaboration.jpg)
 
 # 总结
 
@@ -89,17 +89,17 @@ git 极高的自由度、安全性，分布式胖揍依赖于一个服务器的�
 
 # 一些指令
 
-![获取仓库](images/01-get-repository.png)
+![获取仓库](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/01-get-repository.png)
 
-![日常循环](images/02-daily-workflow.png)
+![日常循环](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/02-daily-workflow.png)
 
-![查看与对比](images/03-inspect-compare.png)
+![查看与对比](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/03-inspect-compare.png)
 
-![分支与合并](images/04-branch-merge.png)
+![分支与合并](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/04-branch-merge.png)
 
-![撤销与回退](images/05-undo-revert.png)
+![撤销与回退](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/05-undo-revert.png)
 
-![远程协作](images/06-remote-collaboration.png)
+![远程协作](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/06-remote-collaboration.png)
 
 # 任务完成中的记录
 
@@ -116,52 +116,52 @@ git 极高的自由度、安全性，分布式胖揍依赖于一个服务器的�
 
 - 先打开 git，输入以下命令：`cd ~/(文件夹地址)`；此命令是用来进入文件夹的。
 
-  ![进入文件夹](images/image.png)
+  ![进入文件夹](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image.png)
 
 - `git init` 把当前目录初始化成一个 Git 仓库
 
-  ![git init 初始化](images/image-1.png)
+  ![git init 初始化](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-1.png)
 
 - `git status` 查看当前状态
 
-  ![git status 查看状态](images/image-2.png)
+  ![git status 查看状态](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-2.png)
 
 - `git add 文件名` 存文件在暂存区
 
-  ![git add 暂存](images/image-4.png)
+  ![git add 暂存](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-4.png)
 
 - 设置名字邮箱
 - `git commit -m`（-m 是你修改的说明）
 
-  ![git commit 提交](images/image-3.png)
+  ![git commit 提交](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-3.png)
 
 创建分支：
 
 - `git branch 分支名称`，可直接输入 `git branch` 查看所有分支
 
-  ![git branch 查看分支](images/image-5.png)
+  ![git branch 查看分支](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-5.png)
 
 - 切换分支 `git switch 分支名称`
 
-  ![git switch 切换分支](images/image-6.png)
+  ![git switch 切换分支](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-6.png)
 
 - `git switch -c 分支名称`（先创建分支并切换过去）
 
-  ![git switch -c 创建并切换分支](images/image-7.png)
+  ![git switch -c 创建并切换分支](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-7.png)
 
 合并分支（把别的分支合并到自己的分支上，先切换到主分支上）：
 
 - `git merge`
 
-  ![git merge 合并分支](images/image-8.png)
+  ![git merge 合并分支](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-8.png)
 
 - `git branch -d` 删除分支
 
-  ![git branch -d 删除分支](images/image-9.png)
+  ![git branch -d 删除分支](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-9.png)
 
 冲突处理：
 
-![冲突处理](images/image-10.png)
+![冲突处理](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/git%E2%80%98s%20note/images/image-10.png)
 
 - 冲突处理完记得提交。
 
