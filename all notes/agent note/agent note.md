@@ -41,7 +41,7 @@
 
 Skill 和 MCP 怎么分工，一张表讲清楚：
 
-![Skill 与 MCP 的区别](images/image-4.png)
+![Skill 与 MCP 的区别](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/image-4.png)
 
 
 ## 什么是 AI Agent？它与普通的大语言模型对话有什么区别？
@@ -52,28 +52,28 @@ gent 是在 LLM 外面套了一层能循环的架子。它接到任务后会拆�
 
 Agent 的完整工作流程：人给意图 → Agent 认知（记忆、规划、推理）→ 调工具检索、写入、执行 → 拿到结果验证、纠错、复盘 → 反馈回流改写记忆，让下一次判断更贴合你。
 
-![Agent 工作流程](images/agent-flow.png)
+![Agent 工作流程](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/agent-flow.png)
 
 ## 三、怎样描述任务、提供上下文
 
 这是任务书第 4 问。我记的要点是——把任务说清楚，先讲清四要素：目标（要什么结果，不是做什么动作）、产出（交付形式、位置、格式）、约束（不能碰的东西、时间成本）、验收（怎么算完成）。
 
-![任务描述的四要素](images/image.png)
+![任务描述的四要素](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/image.png)
 
 给上下文的具体做法：给路径别贴全文、把"事实"和"指令"分开、交代已试过的方案、暴露当前状态和失败信息、先对齐再动手、小步迭代。
 
-![提供上下文的做法](images/image-2.png)
+![提供上下文的做法](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/image-2.png)
 
-![提供上下文的做法(含模板)](images/image-1.png)
+![提供上下文的做法(含模板)](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/image-1.png)
 
 一个可以直接套用的模板（背景 / 目标 / 输入 / 约束 / 产出 / 验收 / 禁止）：
 
-![可套用的任务模板](images/image-3.png)
+![可套用的任务模板](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/image-3.png)
 
 ## 四、AI Agent 能不能当"外置大脑"
 
 答案是能，但只能是"外置"，不能是"替代"。这一节要记的判断是：什么是"外置"、什么该外包、什么是 AI 味——这些有价值的方向是自己提问逼出来的，Agent 只是把它写顺；结论要自己过一遍脑子，AI 给的是草稿，判断还是我的。
 
-![外置大脑的判断](images/external-brain.png)
+![外置大脑的判断](https://raw.githubusercontent.com/OMGplate/notes/main/all%20notes/agent%20note/images/external-brain.png)
 
 
